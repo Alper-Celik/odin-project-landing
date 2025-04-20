@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* font: Roboto; */
+}
+
+/* #region header*/
+
+.header {
+  background-color: #1f2937;
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header>b {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.headerLinks {
+  list-style: none;
+  display: flex;
+  gap: 20pt;
+}
+
+.headerLinks a {
+  color: #E5E7EB;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* #endregion */
