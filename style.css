@@ -69,8 +69,12 @@ body {
 
 .firstPart {
   display: flex;
-  padding: 100px 50px;
+  padding: 100px 150px;
   gap: 50px;
+}
+
+.firstPart img {
+  object-fit: contain;
 }
 
 .firstPart>.texts {
@@ -84,7 +88,43 @@ body {
   margin: 0;
 }
 
+/* #endregion */
 
-.firstPart p {}
+/* #region secondPart*/
+.secondPart {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.secondPart>div {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.secondPart>div>div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+}
+
+.secondPart img {
+  border: 3px solid #3882f6;
+  object-fit: fill;
+  width: 150px;
+  height: 150px;
+  align-self: center;
+  border-radius: 15px;
+}
+
+.secondPart p {
+  text-align: center;
+  color: #7F8690;
+
+  font-size: 0.85em;
+}
 
 /* #endregion */
