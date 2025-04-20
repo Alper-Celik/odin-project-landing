@@ -1,23 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
   margin: 0;
   padding: 0;
   /* font: Roboto; */
+  font-family: "Roboto", Arial, sans-serif;
 }
+
+.DarkBackgraound {
+  background-color: #1f2937;
+}
+
+.HeroMainText {
+  font-weight: 900;
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.HeroSecondaryText,
+.HeaderLinkText {
+  color: #E5E7EB;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.HeaderLogoText {
+  color: #f9faf8;
+  font-size: 24px;
+
+}
+
+
+.SignUpLink:hover,
+.SignUpLink:active {
+  background-color: #2a62ba;
+}
+
+.SignUpLink {
+  background-color: #3882f6;
+  color: #E5E7EB;
+  text-decoration: none;
+  align-self: flex-start;
+  padding: 5px 20px;
+  border-radius: 7.5px;
+}
+
 
 /* #region header*/
 
 .header {
-  background-color: #1f2937;
   display: flex;
   flex: 1;
   justify-content: space-around;
   align-items: center;
 }
 
-.header>b {
-  color: #f9faf8;
-  font-size: 24px;
-}
 
 .headerLinks {
   list-style: none;
@@ -25,10 +62,29 @@ body {
   gap: 20pt;
 }
 
-.headerLinks a {
-  color: #E5E7EB;
-  font-size: 18px;
-  text-decoration: none;
+
+/* #endregion */
+
+/* #region firstPart*/
+
+.firstPart {
+  display: flex;
+  padding: 100px 50px;
+  gap: 50px;
 }
+
+.firstPart>.texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.firstPart * {
+  margin: 0;
+}
+
+
+.firstPart p {}
 
 /* #endregion */
